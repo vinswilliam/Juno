@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Juno</string>
+    <string name="unauthorized_user">Unauthorized user</string>
+    <string name="data_not_found">Data not found.</string>
+    <string name="request_time_out">Request Time Out.</string>
+    <string name="network_error">Network Error</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="popular_movie">Popular</string>
+    <string name="now_playing_movie">Now Playing</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="vote">7.7</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_release_date">2017–10–27</string>
+    <string name="movie_overview">Bacon ipsum dolor amet pork picanha meatloaf,
+        ball tip tenderloin prosciutto kielbasa drumstick alcatra bacon flank beef ribs cow.
+        Short loin tenderloin chicken leberkas, brisket frankfurter pancetta.
+        Alcatra bresaola rump corned beef leberkas shoulder.
+        Pastrami burgdoggen beef ribs, porchetta sausage picanha kielbasa boudin short loin drumstick.
+        Alcatra beef ribs fatback kevin. Venison meatloaf spare ribs frankfurter capicola.
+    </string>
+    <string name="movie_rate">User Score: %1$.1f (%2$d)</string>
+    <string name="movie_overview_title">Overview</string>
+    <string name="movie_title_template">%1$s (%2$s)</string>
+    <string name="original_title">Original Title: %1$s</string>
+    <string name="budget">Budget: %1$s</string>
+</resources>

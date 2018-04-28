@@ -1,0 +1,58 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+ext {
+    minSdkVersion = 15
+    targetSdkVersion = 27
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.3'
+    vSupportLib = '27.1.1'
+    vOkHttp3 = '3.8.0'
+    vRetrofit2 = '2.3.0'
+    vJUnit = '4.12'
+    vButterKnife = '8.8.1'
+    vParceler = '1.1.5'
+    vGooglePlayService = '15.0.0'
+    vFacebookSDK = '4.31.0'
+    vTwitterSDK = '3.0.0'
+    glide_version = '4.3.1'
+    kotlin_version = '1.2.31'
+    glide_transform_version = '3.0.1'
+    vRxAndroid = '2.0.2'
+    vRxJava = '2.1.0'
+    vRxBinding = '2.1.1'
+    vAdapterRxJava = '2.3.0'
+    vGson = '2.8.2'
+    vConverterGson = '2.3.0'
+    vDagger2 = '2.14.1'
+    vDagger2Support = '2.14.1'
+    vMockito = '2.10.0'
+    vEspressoRunner = '0.4'
+    vEspresso = '2.2.1'
+    vLeakCanary = '1.5.4'
+}
+
+buildscript {
+    ext.kotlin_version = '1.2.31'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
